@@ -64,46 +64,6 @@
             bindings = <&kp RBRC>;
             key-positions = <26 25>;
         };
-
-        bang {
-            bindings = <&kp EXCLAMATION>;
-            key-positions = <15 26>;
-        };
-
-        at {
-            bindings = <&kp AT_SIGN>;
-            key-positions = <16 26>;
-        };
-
-        hash {
-            bindings = <&kp HASH>;
-            key-positions = <26 17>;
-        };
-
-        dollar {
-            bindings = <&kp DOLLAR>;
-            key-positions = <26 18>;
-        };
-
-        percent {
-            bindings = <&kp PERCENT>;
-            key-positions = <26 19>;
-        };
-
-        caret {
-            bindings = <&kp CARET>;
-            key-positions = <15 22>;
-        };
-
-        ampersand {
-            bindings = <&kp AMPERSAND>;
-            key-positions = <23 15>;
-        };
-
-        asterisk {
-            bindings = <&kp ASTERISK>;
-            key-positions = <15 24>;
-        };
     };
 
     keymap {
