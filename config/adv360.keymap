@@ -116,11 +116,11 @@
         extra1 {
             display-name = "Red";
             bindings = <
-&kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp F3           &kp F4  &kp F5   &kp F6         &tog 1                                             &mo 3    &kp F7    &kp F8    &kp F9  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
-&trans                &trans                &macro_braces    &macro_brackets  &macro_parens  &trans   &none                                              &none    &trans    &trans    &trans  &trans      &trans             &trans
-&trans                &trans                &trans           &trans           &trans         &trans   &none    &trans     &trans      &trans  &trans     &none    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT   &trans             &trans
-&trans                &trans                &trans           &trans           &trans         &trans                       &trans      &trans                      &trans    &trans    &trans  &trans      &trans             &trans
-&trans                &trans                &trans           &trans           &trans         &kp DEL  &kp ENTER  &trans      &trans  &kp ENTER  &kp TAB            &trans    &trans  &trans      &trans             &trans
+&kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp F3       &kp F4    &kp F5      &kp F6       &tog 1                                             &mo 3    &kp F7     &kp F8         &kp F9        &kp C_MUTE            &kp C_VOLUME_DOWN      &kp C_VOLUME_UP
+&trans                &kp EXCLAMATION       &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT  &none                                              &none    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans                &trans                &trans       &trans    &trans      &trans       &none    &trans     &trans      &trans  &trans     &none    &kp LEFT   &kp DOWN       &kp UP        &kp RIGHT             &trans                 &trans
+&trans                &trans                &trans       &trans    &trans      &trans                           &trans      &trans                      &trans     &trans         &trans        &trans                &trans                 &trans
+&trans                &trans                &trans       &trans    &trans                   &kp DEL  &kp ENTER  &trans      &trans  &kp ENTER  &kp TAB             &trans         &trans        &trans                &trans                 &trans
             >;
         };
 
