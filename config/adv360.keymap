@@ -22,49 +22,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        LANGLE {
-            bindings = <&kp LT>;
-            key-positions = <15 19>;
-        };
-
-        LPAREN {
-            bindings = <&kp LPAR>;
-            key-positions = <15 18>;
-        };
-
-        LBRACKET {
-            bindings = <&kp LBKT>;
-            key-positions = <15 17>;
-        };
-
-        LBRACE {
-            bindings = <&kp LBRC>;
-            key-positions = <15 16>;
-        };
-
-        RANGLE {
-            bindings = <&kp GT>;
-            key-positions = <26 22>;
-        };
-
-        RPAREN {
-            bindings = <&kp RPAR>;
-            key-positions = <26 23>;
-        };
-
-        RBRACKET {
-            bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <26 24>;
-        };
-
-        RBRACE {
-            bindings = <&kp RBRC>;
-            key-positions = <26 25>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
